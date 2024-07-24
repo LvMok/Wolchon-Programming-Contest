@@ -11,4 +11,6 @@ int main(void)
 		c *= a;
 	}
 	cout << c;
+
+	return 0;
 }
