@@ -1,3 +1,3 @@
 n,x = map(int, input().split())
 
-print(x<<n-1)
+print(x<<n)
