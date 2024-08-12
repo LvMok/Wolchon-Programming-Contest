@@ -28,7 +28,7 @@ int main()
 			break;
 		}
 		else {
-			hp -= temp;\
+			hp -= temp;
 			cnt++;
 		}
 	}
