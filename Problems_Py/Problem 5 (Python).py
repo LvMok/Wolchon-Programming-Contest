@@ -19,7 +19,7 @@ for i in range(num):
     if temp > hp:
         break
     else:
-        hp = hp-temp
+        hp -= temp
         print(hp,"   hweofijwe")
         cnt += 1
     
