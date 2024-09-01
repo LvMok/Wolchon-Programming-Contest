@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <string>
 #include <vector>
 
@@ -23,14 +23,15 @@ int main()
                 str.clear();
                 continue;
             }
-            else if (inp == ":X") {
-                str.pop_back();
+            else if (inp == ":X"&&w_cnt!=0) {
+                str[str.size() - 1].pop_back();
+                w_cnt--;
                 continue;
             }
             else if (inp == ":wq") {
                 break;
             }
-            else{
+            else {
                 cout << "Invalid" << "\n";
             }
         }
