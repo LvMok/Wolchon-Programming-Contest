@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     int w_cnt = 0;
-    bool iscmd = false;
+    bool iscmd = true;
     vector<string> str;
 
     while (1) {
