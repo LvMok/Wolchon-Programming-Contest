@@ -21,12 +21,17 @@ int main()
             }
             else if (inp == ":dd") {
                 str.clear();
+                continue;
             }
             else if (inp == ":X") {
                 str.pop_back();
+                continue;
             }
             else if (inp == ":wq") {
                 break;
+            }
+            else{
+                cout << "Invalid" << "\n";
             }
         }
         else {
