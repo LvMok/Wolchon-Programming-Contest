@@ -7,5 +7,5 @@ int main()
 	char a;
 	cin >> a;
 
-	cout << char(a + 1);
+	cout << char(a - 32);
 }
