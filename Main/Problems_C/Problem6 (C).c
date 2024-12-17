@@ -14,7 +14,7 @@ int main(void)
 		B += M;
 	}
 
-	if (B - 1 < 0) {
+	if (B < 1) {
 		A--;
 		B += 60;
 	}
@@ -24,7 +24,7 @@ int main(void)
 		A -= A - A / 24 * 24;
 	}
 
-	printf("%0d½Ã %0dºÐ", A, B);
+	printf("%0dÂ½Ãƒ %0dÂºÃ", A, B);
 
     return 0;
 }
